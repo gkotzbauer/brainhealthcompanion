@@ -18,7 +18,7 @@ export default function Home() {
               Compassionate Support for Every Step of the Aging Journey
             </h1>
             <p className="text-2xl text-gray-700 mb-10">
-              Personalized care companions for families — and smarter tools for care agencies.
+              Personalized care companions for families — and enhanced support tools for care agencies.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">

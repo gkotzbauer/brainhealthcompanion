@@ -65,7 +65,7 @@ export function ProductTour() {
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-blue-50 p-6 rounded-lg">
-              <p className="text-gray-600 mb-4">"{testimonial.quote}"</p>
+              <p className="text-gray-600 mb-4">&quot;{testimonial.quote}&quot;</p>
               <div>
                 <p className="font-semibold text-gray-900">{testimonial.author}</p>
                 <p className="text-sm text-gray-500">{testimonial.role}</p>
