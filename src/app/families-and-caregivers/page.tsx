@@ -96,7 +96,7 @@ export default function FamiliesAndCaregivers() {
         <section className="py-20 bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-gray-900 mb-16 text-center">
-              "I finally feel like I have a partner in this."
+              {"I finally feel like I have a partner in this."}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div className="p-8 bg-white rounded-lg shadow-sm">
@@ -106,7 +106,7 @@ export default function FamiliesAndCaregivers() {
                   </div>
                 </div>
                 <p className="text-xl text-gray-700 mb-6">
-                  "Before this, I was overwhelmed every day. Now I get daily support and reminders that actually help."
+                  {"Before this, I was overwhelmed every day. Now I get daily support and reminders that actually help."}
                 </p>
                 <p className="font-semibold text-gray-900">— Maria S., Daughter & Caregiver</p>
               </div>
@@ -117,7 +117,7 @@ export default function FamiliesAndCaregivers() {
                   </div>
                 </div>
                 <p className="text-xl text-gray-700 mb-6">
-                  "The care companion has helped me and my mom feel connected and supported, even from different cities."
+                  {"The care companion has helped me and my mom feel connected and supported, even from different cities."}
                 </p>
                 <p className="font-semibold text-gray-900">— James T., Remote Caregiver</p>
               </div>
@@ -173,7 +173,7 @@ export default function FamiliesAndCaregivers() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Feel Confident, Stay Connected</h3>
                 <p className="text-gray-700">
-                  Whether at home or on the go, you&apos;ll always be informed and supported.
+                  {"Whether at home or on the go, you'll always be informed and supported."}
                 </p>
               </div>
             </div>
