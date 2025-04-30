@@ -1,5 +1,11 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 export function Navbar() {
   return (
@@ -12,7 +18,22 @@ export function Navbar() {
         {/* Nav Links */}
         <div className="hidden md:flex gap-8 text-base font-medium text-gray-800">
           <Link href="#how-it-works" className="hover:text-blue-600 transition-colors">How It Works</Link>
-          <Link href="#who-we-help" className="hover:text-blue-600 transition-colors">Who We Help</Link>
+          <DropdownMenu>
+            <DropdownMenuTrigger className="hover:text-blue-600 transition-colors">
+              Who We Help
+            </DropdownMenuTrigger>
+            <DropdownMenuContent>
+              <DropdownMenuItem>
+                <Link href="/families-and-caregivers">Families & Caregivers</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href="/care-agencies">Care Agencies</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem className="text-gray-400 cursor-not-allowed">
+                Clinicians (Coming Soon)
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
           <Link href="#resources" className="hover:text-blue-600 transition-colors">Resources</Link>
           <Link href="#community" className="hover:text-blue-600 transition-colors">Community</Link>
         </div>

@@ -1,0 +1,314 @@
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+import { FadeInOnScroll } from "@/components/FadeInOnScroll";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Clock, AlertCircle, Heart, CheckCircle, Download, Calendar, BookOpen } from "lucide-react";
+import Image from "next/image";
+
+export default function CareAgencies() {
+  return (
+    <main className="min-h-screen bg-white">
+      <Navbar />
+      
+      {/* Hero Section */}
+      <FadeInOnScroll>
+        <section className="relative w-full min-h-[600px] flex items-center bg-gradient-to-r from-blue-50 to-white">
+          <div className="container mx-auto px-4 py-24">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h1 className="text-5xl font-bold text-gray-900 mb-6">
+                  Elevate Your Care Agency's Impact
+                </h1>
+                <p className="text-xl text-gray-700 mb-8">
+                  Transform your care delivery with AI-powered insights and support tools designed for modern care agencies.
+                </p>
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg font-semibold">
+                  Schedule a Demo
+                </Button>
+              </div>
+              <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
+                {/* Hero Image Placeholder */}
+                <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                  <span className="text-gray-400">Hero Image: Care team using digital tools in a professional setting</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </FadeInOnScroll>
+
+      {/* What We Offer Section */}
+      <FadeInOnScroll>
+        <section className="py-20 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                A Comprehensive Platform for Modern Care Agencies
+              </h2>
+              <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+                From staff training to client outcomes, we help you deliver exceptional care while optimizing operations.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+              <div className="p-6 rounded-lg bg-blue-50">
+                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
+                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                    <span className="text-gray-400">Image: Staff Training Dashboard</span>
+                  </div>
+                </div>
+                <Clock className="w-12 h-12 text-blue-600 mb-4" />
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Staff Training & Support</h3>
+                <p className="text-gray-700">
+                  Equip your team with the latest in brain health care techniques and best practices.
+                </p>
+              </div>
+              <div className="p-6 rounded-lg bg-blue-50">
+                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
+                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                    <span className="text-gray-400">Image: Client Monitoring Interface</span>
+                  </div>
+                </div>
+                <AlertCircle className="w-12 h-12 text-blue-600 mb-4" />
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Client Monitoring</h3>
+                <p className="text-gray-700">
+                  Track client progress and receive early alerts about potential health changes.
+                </p>
+              </div>
+              <div className="p-6 rounded-lg bg-blue-50">
+                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
+                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                    <span className="text-gray-400">Image: Agency Analytics Dashboard</span>
+                  </div>
+                </div>
+                <Heart className="w-12 h-12 text-blue-600 mb-4" />
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Performance Analytics</h3>
+                <p className="text-gray-700">
+                  Measure and improve your agency's impact with detailed insights and reporting.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </FadeInOnScroll>
+
+      {/* Testimonials Section */}
+      <FadeInOnScroll>
+        <section className="py-20 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h2 className="text-4xl font-bold text-gray-900 mb-16 text-center">
+              "This platform has transformed how we deliver care."
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+              <div className="p-8 bg-white rounded-lg shadow-sm">
+                <div className="relative h-32 w-32 mx-auto mb-6 rounded-full overflow-hidden">
+                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                    <span className="text-gray-400">Sarah's Photo</span>
+                  </div>
+                </div>
+                <p className="text-xl text-gray-700 mb-6">
+                  "Our staff retention has improved significantly since implementing these tools. The training resources are invaluable."
+                </p>
+                <p className="font-semibold text-gray-900">— Sarah M., Care Agency Director</p>
+              </div>
+              <div className="p-8 bg-white rounded-lg shadow-sm">
+                <div className="relative h-32 w-32 mx-auto mb-6 rounded-full overflow-hidden">
+                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                    <span className="text-gray-400">David's Photo</span>
+                  </div>
+                </div>
+                <p className="text-xl text-gray-700 mb-6">
+                  "The analytics have helped us demonstrate our value to families and improve our care delivery."
+                </p>
+                <p className="font-semibold text-gray-900">— David R., Agency Owner</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </FadeInOnScroll>
+
+      {/* How It Works Section */}
+      <FadeInOnScroll>
+        <section className="py-20 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-4xl font-bold text-gray-900 mb-16 text-center">
+              Simple Integration, Powerful Results
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+              <div className="text-center">
+                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
+                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                    <span className="text-gray-400">Image: Quick Setup Process</span>
+                  </div>
+                </div>
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-blue-600">1</span>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Easy Setup</h3>
+                <p className="text-gray-700">
+                  Get your team onboarded and trained in days, not months.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
+                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                    <span className="text-gray-400">Image: Care Management Interface</span>
+                  </div>
+                </div>
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-blue-600">2</span>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Streamline Care</h3>
+                <p className="text-gray-700">
+                  Manage client care plans and staff assignments in one place.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
+                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                    <span className="text-gray-400">Image: Growth Metrics Dashboard</span>
+                  </div>
+                </div>
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-blue-600">3</span>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Grow Your Impact</h3>
+                <p className="text-gray-700">
+                  Use data-driven insights to expand your services and improve outcomes.
+                </p>
+              </div>
+            </div>
+            <div className="text-center mt-12">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg font-semibold">
+                Request a Demo
+              </Button>
+            </div>
+          </div>
+        </section>
+      </FadeInOnScroll>
+
+      {/* Why It Matters Section */}
+      <FadeInOnScroll>
+        <section className="py-20 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-4xl font-bold text-gray-900 mb-8">
+                  Because Quality Care Requires the Right Tools
+                </h2>
+                <p className="text-xl text-gray-700 mb-8">
+                  In today's care landscape, agencies need more than just good intentions. They need technology that empowers their team and improves client outcomes.
+                </p>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                      <span className="text-2xl font-bold text-blue-600">40%</span>
+                    </div>
+                    <p className="text-gray-700">reduction in staff turnover</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                      <span className="text-2xl font-bold text-blue-600">85%</span>
+                    </div>
+                    <p className="text-gray-700">improvement in care documentation</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                      <span className="text-2xl font-bold text-blue-600">2x</span>
+                    </div>
+                    <p className="text-gray-700">faster client onboarding</p>
+                  </div>
+                </div>
+              </div>
+              <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
+                <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                  <span className="text-gray-400">Image: Agency Success Metrics</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </FadeInOnScroll>
+
+      {/* Resources Section */}
+      <FadeInOnScroll>
+        <section className="py-20 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-4xl font-bold text-gray-900 mb-16 text-center">
+              Resources for Care Agencies
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="p-6 bg-blue-50 rounded-lg">
+                <div className="relative h-32 mb-6 rounded-lg overflow-hidden">
+                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                    <span className="text-gray-400">Image: Case Study Cover</span>
+                  </div>
+                </div>
+                <Download className="w-8 h-8 text-blue-600 mb-4" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Success Stories</h3>
+                <p className="text-gray-700 mb-4">Real agencies, real results</p>
+                <Button variant="outline" className="w-full">Download PDF</Button>
+              </div>
+              <div className="p-6 bg-blue-50 rounded-lg">
+                <div className="relative h-32 mb-6 rounded-lg overflow-hidden">
+                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                    <span className="text-gray-400">Image: Webinar Preview</span>
+                  </div>
+                </div>
+                <Calendar className="w-8 h-8 text-blue-600 mb-4" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Live Demo</h3>
+                <p className="text-gray-700 mb-4">See the platform in action</p>
+                <Button variant="outline" className="w-full">Register Now</Button>
+              </div>
+              <div className="p-6 bg-blue-50 rounded-lg">
+                <div className="relative h-32 mb-6 rounded-lg overflow-hidden">
+                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                    <span className="text-gray-400">Image: Implementation Guide</span>
+                  </div>
+                </div>
+                <BookOpen className="w-8 h-8 text-blue-600 mb-4" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Implementation Guide</h3>
+                <p className="text-gray-700 mb-4">Step-by-step setup process</p>
+                <Button variant="outline" className="w-full">View Guide</Button>
+              </div>
+              <div className="p-6 bg-blue-50 rounded-lg">
+                <div className="relative h-32 mb-6 rounded-lg overflow-hidden">
+                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                    <span className="text-gray-400">Image: ROI Calculator</span>
+                  </div>
+                </div>
+                <CheckCircle className="w-8 h-8 text-blue-600 mb-4" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">ROI Calculator</h3>
+                <p className="text-gray-700 mb-4">Calculate your potential savings</p>
+                <Button variant="outline" className="w-full">Try Calculator</Button>
+              </div>
+            </div>
+            <div className="text-center mt-12">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg font-semibold">
+                Explore All Resources
+              </Button>
+            </div>
+          </div>
+        </section>
+      </FadeInOnScroll>
+
+      {/* Final CTA Section */}
+      <FadeInOnScroll>
+        <section className="py-20 bg-blue-600">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-4xl font-bold text-white mb-4">
+              Ready to Transform Your Care Agency?
+            </h2>
+            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+              Join the growing number of agencies using our platform to deliver exceptional care and grow their business.
+            </p>
+            <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-6 text-lg font-semibold">
+              Schedule a Demo
+            </Button>
+          </div>
+        </section>
+      </FadeInOnScroll>
+
+      <Footer />
+    </main>
+  );
+} 
