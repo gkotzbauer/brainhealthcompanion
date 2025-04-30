@@ -17,7 +17,7 @@ export default function CareAgencies() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h1 className="text-5xl font-bold text-gray-900 mb-6">
-                  Elevate Your Care Agency's Impact
+                  Elevate Your Care Agency&apos;s Impact
                 </h1>
                 <p className="text-xl text-gray-700 mb-8">
                   Transform your care delivery with AI-powered insights and support tools designed for modern care agencies.
@@ -83,7 +83,7 @@ export default function CareAgencies() {
                 <Heart className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Performance Analytics</h3>
                 <p className="text-gray-700">
-                  Measure and improve your agency's impact with detailed insights and reporting.
+                  Measure and improve your agency&apos;s impact with detailed insights and reporting.
                 </p>
               </div>
             </div>
@@ -96,28 +96,28 @@ export default function CareAgencies() {
         <section className="py-20 bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-gray-900 mb-16 text-center">
-              "This platform has transformed how we deliver care."
+              &quot;This platform has transformed how we deliver care.&quot;
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div className="p-8 bg-white rounded-lg shadow-sm">
                 <div className="relative h-32 w-32 mx-auto mb-6 rounded-full overflow-hidden">
                   <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Sarah's Photo</span>
+                    <span className="text-gray-400">Sarah&apos;s Photo</span>
                   </div>
                 </div>
                 <p className="text-xl text-gray-700 mb-6">
-                  "Our staff retention has improved significantly since implementing these tools. The training resources are invaluable."
+                  &quot;Our staff retention has improved significantly since implementing these tools. The training resources are invaluable.&quot;
                 </p>
                 <p className="font-semibold text-gray-900">— Sarah M., Care Agency Director</p>
               </div>
               <div className="p-8 bg-white rounded-lg shadow-sm">
                 <div className="relative h-32 w-32 mx-auto mb-6 rounded-full overflow-hidden">
                   <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">David's Photo</span>
+                    <span className="text-gray-400">David&apos;s Photo</span>
                   </div>
                 </div>
                 <p className="text-xl text-gray-700 mb-6">
-                  "The analytics have helped us demonstrate our value to families and improve our care delivery."
+                  &quot;The analytics have helped us demonstrate our value to families and improve our care delivery.&quot;
                 </p>
                 <p className="font-semibold text-gray-900">— David R., Agency Owner</p>
               </div>
@@ -196,7 +196,7 @@ export default function CareAgencies() {
                   Because Quality Care Requires the Right Tools
                 </h2>
                 <p className="text-xl text-gray-700 mb-8">
-                  In today's care landscape, agencies need more than just good intentions. They need technology that empowers their team and improves client outcomes.
+                  In today&apos;s care landscape, agencies need more than just good intentions. They need technology that empowers their team and improves client outcomes.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <div className="text-center">

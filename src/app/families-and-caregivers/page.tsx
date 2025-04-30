@@ -17,7 +17,7 @@ export default function FamiliesAndCaregivers() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h1 className="text-5xl font-bold text-gray-900 mb-6">
-                  You're Caring for Them. We're Here to Care for You.
+                  You&apos;re Caring for Them. We&apos;re Here to Care for You.
                 </h1>
                 <p className="text-xl text-gray-700 mb-8">
                   Personalized brain health support, guidance, and peace of mind — 24/7.
@@ -46,7 +46,7 @@ export default function FamiliesAndCaregivers() {
                 A Digital Care Companion That Supports the Whole Journey
               </h2>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                Whether you're juggling work, family, or caring from afar — our platform is here to help you feel less alone and more in control.
+                Whether you&apos;re juggling work, family, or caring from afar — our platform is here to help you feel less alone and more in control.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -59,7 +59,7 @@ export default function FamiliesAndCaregivers() {
                 <Clock className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">24/7 Personalized Support</h3>
                 <p className="text-gray-700">
-                  Coaching, emotional guidance, and cognitive care suggestions tailored to your loved one's needs.
+                  Coaching, emotional guidance, and cognitive care suggestions tailored to your loved one&apos;s needs.
                 </p>
               </div>
               <div className="p-6 rounded-lg bg-blue-50">
@@ -83,7 +83,7 @@ export default function FamiliesAndCaregivers() {
                 <Heart className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Peace of Mind at Every Step</h3>
                 <p className="text-gray-700">
-                  From medication reminders to stress check-ins, you'll always feel supported — without needing to do it all alone.
+                  From medication reminders to stress check-ins, you&apos;ll always feel supported — without needing to do it all alone.
                 </p>
               </div>
             </div>
@@ -102,7 +102,7 @@ export default function FamiliesAndCaregivers() {
               <div className="p-8 bg-white rounded-lg shadow-sm">
                 <div className="relative h-32 w-32 mx-auto mb-6 rounded-full overflow-hidden">
                   <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Maria's Photo</span>
+                    <span className="text-gray-400">Maria&apos;s Photo</span>
                   </div>
                 </div>
                 <p className="text-xl text-gray-700 mb-6">
@@ -113,7 +113,7 @@ export default function FamiliesAndCaregivers() {
               <div className="p-8 bg-white rounded-lg shadow-sm">
                 <div className="relative h-32 w-32 mx-auto mb-6 rounded-full overflow-hidden">
                   <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">James's Photo</span>
+                    <span className="text-gray-400">James&apos;s Photo</span>
                   </div>
                 </div>
                 <p className="text-xl text-gray-700 mb-6">
@@ -159,7 +159,7 @@ export default function FamiliesAndCaregivers() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Meet Your Companion</h3>
                 <p className="text-gray-700">
-                  You'll receive daily coaching, brain health tips, emotional check-ins, and smart alerts.
+                  You&apos;ll receive daily coaching, brain health tips, emotional check-ins, and smart alerts.
                 </p>
               </div>
               <div className="text-center">
@@ -173,7 +173,7 @@ export default function FamiliesAndCaregivers() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Feel Confident, Stay Connected</h3>
                 <p className="text-gray-700">
-                  Whether at home or on the go, you'll always be informed and supported.
+                  Whether at home or on the go, you&apos;ll always be informed and supported.
                 </p>
               </div>
             </div>
@@ -278,7 +278,7 @@ export default function FamiliesAndCaregivers() {
                 </div>
                 <CheckCircle className="w-8 h-8 text-blue-600 mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">FAQ</h3>
-                <p className="text-gray-700 mb-4">How can this help with Alzheimer's or MCI?</p>
+                <p className="text-gray-700 mb-4">How can this help with Alzheimer&apos;s or MCI?</p>
                 <Button variant="outline" className="w-full">Learn More</Button>
               </div>
             </div>
