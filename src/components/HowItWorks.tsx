@@ -1,23 +1,23 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { UserPlus, MessageCircle, ActivitySquare } from "lucide-react";
+import { HeartHandshake, Users, LineChart } from "lucide-react";
 
 export function HowItWorks() {
   const steps = [
     {
-      icon: <UserPlus className="w-12 h-12 text-blue-600" />,
-      title: "Onboard Quickly",
-      desc: "Caregivers and agencies register loved ones or clients."
+      icon: <HeartHandshake className="w-12 h-12 text-blue-600" />,
+      title: "Reduced Caregiver Burden",
+      desc: "Automate daily care plans, on-demand resources and guidance, get assistance with care coordination"
     },
     {
-      icon: <MessageCircle className="w-12 h-12 text-blue-600" />,
-      title: "Daily Companion Engagement",
-      desc: "Personalized coaching, reminders, and emotional support begin immediately."
+      icon: <Users className="w-12 h-12 text-blue-600" />,
+      title: "Reduce Social Isolation",
+      desc: "Gain a 24/7 companion that gives you the freedom to express your needs or ask questions anonymously"
     },
     {
-      icon: <ActivitySquare className="w-12 h-12 text-blue-600" />,
-      title: "Real-Time Insights and Action",
-      desc: "Predictive health alerts guide decisions before issues escalate."
+      icon: <LineChart className="w-12 h-12 text-blue-600" />,
+      title: "Optimize Care",
+      desc: "Predictive data can inform more targeted conversations and action plans with medical professionals."
     }
   ];
 
@@ -25,11 +25,11 @@ export function HowItWorks() {
     <section className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
-          Simple, Seamless Support Tailored to You
+          A 24/7 digital care companion - care support for the caregiver
         </h2>
-
-        {/* Flow Diagram / Visual */}
-        {/* (Removed image as requested) */}
+        <p className="text-xl text-center text-gray-600 mb-12">
+          All you have to do is ask
+        </p>
 
         {/* Steps */}
         <div className="grid md:grid-cols-3 gap-8 mb-12">
