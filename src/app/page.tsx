@@ -12,8 +12,8 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       <Navbar />
       {/* Hero Section */}
-      <FadeInOnScroll>
-        <section className="relative w-full min-h-[600px] flex items-center bg-white" style={{backgroundImage: 'url(/hero-image.png)', backgroundPosition: 'right center', backgroundRepeat: 'no-repeat', backgroundSize: 'contain'}}>
+      <section className="relative w-full min-h-[600px] flex items-center bg-white" style={{backgroundImage: 'url(/hero-image.png)', backgroundPosition: 'right center', backgroundRepeat: 'no-repeat', backgroundSize: 'contain'}}>
+        <FadeInOnScroll>
           <div className="container mx-auto px-4 py-24 flex flex-col justify-center min-h-[500px]">
             <div className="max-w-2xl bg-white/80 rounded-xl p-8 shadow-lg backdrop-blur-sm">
               <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight mb-6">
@@ -32,8 +32,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
-      </FadeInOnScroll>
+        </FadeInOnScroll>
+      </section>
 
       {/* How It Works Section */}
       <FadeInOnScroll>
