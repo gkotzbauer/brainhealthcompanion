@@ -20,7 +20,7 @@ export default function Home() {
                 Compassionate Support for Every Step of the Aging Journey
               </h1>
               <p className="text-2xl text-gray-700 mb-10">
-                Caregiving simplified — your 24/7 digital partner for simplifying caregiving and enhancing quality of life
+                Your 24/7 digital partner for simplifying caregiving and enhancing quality of life
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">

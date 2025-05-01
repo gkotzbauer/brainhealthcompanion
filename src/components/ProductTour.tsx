@@ -4,11 +4,11 @@ import { Play } from "lucide-react";
 
 export function ProductTour() {
   const features = [
-    "Personalized brain health check-ins",
-    "Cognitive health monitoring",
-    "Predictive risk alerts",
-    "24/7 support access",
-    "Seamless provider communication (for agencies)",
+    "Enhanced Emotional Support via scheduled or real-time personalized quality of life check-ins",
+    <span key="evidence">Evidence-Based cognitive health and quality of life monitoring of patients or loved ones with cognitive decline</span>,
+    "Support network for check-ins that are needed to alleviate loneliness and reduce anxiety",
+    "Automated daily care plans, medication reminders, and educational prompts to help mitigate day-to-day stress or caregiving",
+    "Provider-to-provider communication (for agencies)"
   ];
 
   const testimonials = [
@@ -54,7 +54,13 @@ export function ProductTour() {
                   <div className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
                     <span className="text-blue-600 font-semibold">{idx + 1}</span>
                   </div>
-                  <span className="text-gray-700">{feature}</span>
+                  <span className="text-gray-700">
+                    {typeof feature === 'string' ? feature : (
+                      <span>
+                        <strong>Evidence-Based</strong> cognitive health and quality of life monitoring of patients or loved ones with cognitive decline
+                      </span>
+                    )}
+                  </span>
                 </li>
               ))}
             </ul>

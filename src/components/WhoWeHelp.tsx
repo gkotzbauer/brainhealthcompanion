@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { Heart, Brain, Clock, AlertCircle, Users, TrendingUp, Handshake, MessageSquare } from "lucide-react";
+import { Heart, Brain, Clock, AlertCircle, Users, TrendingUp, Handshake, BarChart3 } from "lucide-react";
 
 export function WhoWeHelp() {
   // Families value props
@@ -35,9 +35,9 @@ export function WhoWeHelp() {
       desc: "Equip your staff and families with real-time guidance and stress reduction tools."
     },
     {
-      icon: <MessageSquare className="w-8 h-8 text-blue-600" />,
-      title: "Streamline Communication",
-      desc: "Integrated reporting to better coordinate care between your team and healthcare providers."
+      icon: <BarChart3 className="w-8 h-8 text-blue-600" />,
+      title: "Scale High-quality Care with Less",
+      desc: "Our companion will enable each care team member to support more patients at one time with the same or less effort."
     }
   ];
 
