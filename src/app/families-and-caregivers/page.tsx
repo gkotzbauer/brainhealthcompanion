@@ -27,10 +27,13 @@ export default function FamiliesAndCaregivers() {
                 </Button>
               </div>
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
-                {/* Hero Image Placeholder */}
-                <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                  <span className="text-gray-400">Hero Image: Daughter and elderly parent in a calm home setting</span>
-                </div>
+                <Image
+                  src="/daughter-parent.png"
+                  alt="Daughter and elderly parent in a calm home setting"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
             </div>
           </div>
