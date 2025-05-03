@@ -153,9 +153,12 @@ export default function FamiliesAndCaregivers() {
               </div>
               <div className="text-center">
                 <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: Care Companion Interface</span>
-                  </div>
+                  <Image
+                    src="/Brain-health-chat.png"
+                    alt="Care Companion Interface"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                   <span className="text-2xl font-bold text-blue-600">2</span>

@@ -39,8 +39,8 @@ export function ProductTour() {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative h-[500px] rounded-lg overflow-hidden shadow-lg">
             <Image
-              src="/how-it-works.png"
-              alt="Companion app demo"
+              src="/care-companion-demo.png"
+              alt="Care Companion Demo"
               fill
               className="object-contain bg-white"
             />
