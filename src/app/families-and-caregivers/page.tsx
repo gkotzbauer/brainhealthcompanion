@@ -134,7 +134,7 @@ export default function FamiliesAndCaregivers() {
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-gray-900 mb-16 text-center">
-              Simple, Seamless, Supportive
+              Simple, Supportive, and Always There for You
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               <div className="text-center">
@@ -154,7 +154,7 @@ export default function FamiliesAndCaregivers() {
               <div className="text-center">
                 <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
                   <Image
-                    src="/Brain-health-chat.png"
+                    src="/care-companion-demo.png"
                     alt="Care Companion Interface"
                     fill
                     className="object-cover"

@@ -25,7 +25,7 @@ export function HowItWorks() {
     <section className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
-          A 24/7 digital care companion - care support for the caregiver
+          Your 24/7 Care Companion - Always Here to Support You
         </h2>
         <p className="text-xl text-center text-gray-600 mb-12">
           All you have to do is ask
