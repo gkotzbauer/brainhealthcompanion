@@ -6,6 +6,7 @@ import { ProductTour } from "@/components/ProductTour";
 import { CommunityHub } from "@/components/CommunityHub";
 import { Footer } from "@/components/Footer";
 import { FadeInOnScroll } from "@/components/FadeInOnScroll";
+import { WaitlistForm } from "@/components/WaitlistForm";
 
 export default function Home() {
   return (
@@ -23,12 +24,8 @@ export default function Home() {
                 Your 24/7 digital partner for simplifying caregiving and enhancing quality of life
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">
-                  Caregiver
-                </Button>
-                <Button size="lg" variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-4 text-lg font-semibold">
-                  Care Agency
-                </Button>
+                <WaitlistForm triggerText="Caregiver" />
+                <WaitlistForm triggerText="Care Agency" />
               </div>
             </div>
           </div>

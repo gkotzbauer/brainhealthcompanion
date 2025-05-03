@@ -4,6 +4,7 @@ import { FadeInOnScroll } from "@/components/FadeInOnScroll";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Clock, AlertCircle, Heart, CheckCircle, Download, Calendar, BookOpen } from "lucide-react";
 import Image from "next/image";
+import { WaitlistForm } from "@/components/WaitlistForm";
 
 export default function FamiliesAndCaregivers() {
   return (
@@ -22,9 +23,7 @@ export default function FamiliesAndCaregivers() {
                 <p className="text-xl text-gray-700 mb-8">
                   Personalized brain health support, guidance, and peace of mind — 24/7.
                 </p>
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg font-semibold">
-                  Meet Your Care Companion
-                </Button>
+                <WaitlistForm triggerText="Meet Your Care Companion" />
               </div>
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
                 <Image
@@ -184,9 +183,7 @@ export default function FamiliesAndCaregivers() {
               </div>
             </div>
             <div className="text-center mt-12">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg font-semibold">
-                Try It Today – Risk-Free
-              </Button>
+              <WaitlistForm triggerText="Try It Today – Risk-Free" />
             </div>
           </div>
         </section>
@@ -289,9 +286,7 @@ export default function FamiliesAndCaregivers() {
               </div>
             </div>
             <div className="text-center mt-12">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg font-semibold">
-                Explore the Resource Library
-              </Button>
+              <WaitlistForm triggerText="Explore the Resource Library" />
             </div>
           </div>
         </section>
@@ -307,9 +302,9 @@ export default function FamiliesAndCaregivers() {
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
               Try your personalized care companion and experience what stress-free caregiving can feel like.
             </p>
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-6 text-lg font-semibold">
-              Get Started Free
-            </Button>
+            <div className="text-center">
+              <WaitlistForm triggerText="Get Started Free" />
+            </div>
           </div>
         </section>
       </FadeInOnScroll>

@@ -4,6 +4,7 @@ import { FadeInOnScroll } from "@/components/FadeInOnScroll";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Clock, AlertCircle, Heart, CheckCircle, Download, Calendar, BookOpen } from "lucide-react";
 import Image from "next/image";
+import { WaitlistForm } from "@/components/WaitlistForm";
 
 export default function CareAgencies() {
   return (
@@ -22,9 +23,7 @@ export default function CareAgencies() {
                 <p className="text-xl text-gray-700 mb-8">
                   Transform your care delivery with AI-powered insights and support tools designed for modern care agencies.
                 </p>
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg font-semibold">
-                  Schedule a Demo
-                </Button>
+                <WaitlistForm triggerText="Schedule a Demo" />
               </div>
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
                 {/* Hero Image Placeholder */}
@@ -178,9 +177,7 @@ export default function CareAgencies() {
               </div>
             </div>
             <div className="text-center mt-12">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg font-semibold">
-                Request a Demo
-              </Button>
+              <WaitlistForm triggerText="Request a Demo" />
             </div>
           </div>
         </section>
@@ -283,9 +280,7 @@ export default function CareAgencies() {
               </div>
             </div>
             <div className="text-center mt-12">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg font-semibold">
-                Explore All Resources
-              </Button>
+              <WaitlistForm triggerText="Explore All Resources" />
             </div>
           </div>
         </section>
@@ -301,9 +296,9 @@ export default function CareAgencies() {
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
               Join the growing number of agencies using our platform to deliver exceptional care and grow their business.
             </p>
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-6 text-lg font-semibold">
-              Schedule a Demo
-            </Button>
+            <div className="text-center">
+              <WaitlistForm triggerText="Schedule a Demo" />
+            </div>
           </div>
         </section>
       </FadeInOnScroll>

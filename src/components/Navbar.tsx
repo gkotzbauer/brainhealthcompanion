@@ -6,6 +6,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { WaitlistForm } from "@/components/WaitlistForm";
 
 export function Navbar() {
   return (
@@ -38,9 +39,7 @@ export function Navbar() {
           <Link href="#community" className="hover:text-blue-600 transition-colors">Community</Link>
         </div>
         {/* Get Started Button */}
-        <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 text-base font-semibold">
-          Get Started
-        </Button>
+        <WaitlistForm triggerText="Get Started" />
       </div>
     </nav>
   );
