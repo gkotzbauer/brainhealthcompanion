@@ -18,7 +18,6 @@ export function Navbar() {
         </Link>
         {/* Nav Links */}
         <div className="hidden md:flex gap-8 text-base font-medium text-gray-800">
-          <Link href="#how-it-works" className="hover:text-blue-600 transition-colors">How It Works</Link>
           <DropdownMenu>
             <DropdownMenuTrigger className="hover:text-blue-600 transition-colors">
               Who We Help

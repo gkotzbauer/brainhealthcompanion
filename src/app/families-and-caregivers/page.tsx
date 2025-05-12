@@ -18,10 +18,10 @@ export default function FamiliesAndCaregivers() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h1 className="text-5xl font-bold text-gray-900 mb-6">
-                  You&apos;re Caring for Them. We&apos;re Here to Care for You.
+                  You&apos;re Caring for Them. Your Digital Companion is Here to Care for You.
                 </h1>
                 <p className="text-xl text-gray-700 mb-8">
-                  Personalized brain health support, guidance, and peace of mind — 24/7.
+                  For your peace of mind: Get the 24/7 personalized support you need to optimize your quality of life and the life of those you care for.
                 </p>
                 <WaitlistForm triggerText="Meet Your Care Companion" />
               </div>
@@ -45,10 +45,10 @@ export default function FamiliesAndCaregivers() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                A Digital Care Companion That Supports the Whole Journey
+                A Digital Care Companion Built for You
               </h2>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                Whether you&apos;re juggling work, family, or caring from afar — our platform is here to help you feel less alone and more in control.
+                Whether you&apos;re juggling work, family, or caring from afar — your Digital Care Companion is always there to help you feel less alone, anxious, and more in control.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -59,9 +59,9 @@ export default function FamiliesAndCaregivers() {
                   </div>
                 </div>
                 <Clock className="w-12 h-12 text-blue-600 mb-4" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">24/7 Personalized Support</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">24/7 Resource Access</h3>
                 <p className="text-gray-700">
-                  Coaching, emotional guidance, and cognitive care suggestions tailored to your loved one&apos;s needs.
+                  Coaching, emotional guidance, and cognitive care suggestions tailored for you and those you care for.
                 </p>
               </div>
               <div className="p-6 rounded-lg bg-blue-50">
@@ -71,9 +71,9 @@ export default function FamiliesAndCaregivers() {
                   </div>
                 </div>
                 <AlertCircle className="w-12 h-12 text-blue-600 mb-4" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Proactive Health Alerts</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Proactive Care Guidance</h3>
                 <p className="text-gray-700">
-                  Get notified early about cognitive, behavioral, or lifestyle changes — before they become emergencies.
+                  Receive the timely guidance you need to minimize or stop negative surprises - before they become emergencies.
                 </p>
               </div>
               <div className="p-6 rounded-lg bg-blue-50">
@@ -85,7 +85,7 @@ export default function FamiliesAndCaregivers() {
                 <Heart className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Peace of Mind at Every Step</h3>
                 <p className="text-gray-700">
-                  From medication reminders to stress check-ins, you&apos;ll always feel supported — without needing to do it all alone.
+                  From care plan guidance for those in your care to stress check-ins for you, you'll always feel supported by your Companion— you don't need to do it all alone.
                 </p>
               </div>
             </div>
@@ -147,7 +147,7 @@ export default function FamiliesAndCaregivers() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Get Started in Minutes</h3>
                 <p className="text-gray-700">
-                  Tell us a bit about your loved one and caregiving needs.
+                  Talk to your Companion about your needs or caregiving questions.
                 </p>
               </div>
               <div className="text-center">
@@ -162,9 +162,9 @@ export default function FamiliesAndCaregivers() {
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                   <span className="text-2xl font-bold text-blue-600">2</span>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Meet Your Companion</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Partner with Your Companion</h3>
                 <p className="text-gray-700">
-                  You&apos;ll receive daily coaching, brain health tips, emotional check-ins, and smart alerts.
+                  Your Companion will get to know you and be there for you when you need it - get any daily coaching you need, brain health tips, emotional check-ins, or any other support you need.
                 </p>
               </div>
               <div className="text-center">
@@ -176,9 +176,9 @@ export default function FamiliesAndCaregivers() {
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                   <span className="text-2xl font-bold text-blue-600">3</span>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Feel Confident, Stay Connected</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Stay Connected, Feel Confident</h3>
                 <p className="text-gray-700">
-                  {"Whether at home or on the go, you'll always be informed and supported."}
+                  Whether at home or on the go, connect with your Companion to be informed and supported.
                 </p>
               </div>
             </div>
@@ -210,7 +210,7 @@ export default function FamiliesAndCaregivers() {
                   </div>
                   <div className="text-center">
                     <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                      <span className="text-2xl font-bold text-blue-600">100%</span>
+                      <span className="text-2xl font-bold text-blue-600">-$</span>
                     </div>
                     <p className="text-gray-700">Most caregiving is unpaid and unsupported</p>
                   </div>
@@ -237,7 +237,7 @@ export default function FamiliesAndCaregivers() {
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-gray-900 mb-16 text-center">
-              Free Tools for Your Caregiving Journey
+              Free Tools to Help You Live Your Best Life.
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="p-6 bg-blue-50 rounded-lg">
@@ -281,7 +281,7 @@ export default function FamiliesAndCaregivers() {
                 </div>
                 <CheckCircle className="w-8 h-8 text-blue-600 mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">FAQ</h3>
-                <p className="text-gray-700 mb-4">How can this help with Alzheimer&apos;s or MCI?</p>
+                <p className="text-gray-700 mb-4">Learn more about My Brain Health.</p>
                 <Button variant="outline" className="w-full">Learn More</Button>
               </div>
             </div>
@@ -300,10 +300,12 @@ export default function FamiliesAndCaregivers() {
               Support Is Just a Click Away
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Try your personalized care companion and experience what stress-free caregiving can feel like.
+              Try your 24/7 personalized care companion and experience what stress-free caregiving can feel like.
             </p>
             <div className="text-center">
-              <WaitlistForm triggerText="Get Started Free" />
+              <div className="inline-block border-2 border-white rounded-lg">
+                <WaitlistForm triggerText="Get Started for Free" />
+              </div>
             </div>
           </div>
         </section>
