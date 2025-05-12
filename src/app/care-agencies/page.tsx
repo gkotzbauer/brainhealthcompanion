@@ -45,7 +45,7 @@ export default function CareAgencies() {
                 A Comprehensive Platform for Modern Care Agencies
               </h2>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                From staff training to client outcomes, we help you deliver exceptional care while optimizing operations.
+                From staff training to scaling your customer touchpoints, we help you deliver exceptional care and optimize your operations.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -58,7 +58,7 @@ export default function CareAgencies() {
                 <Clock className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Staff Training & Support</h3>
                 <p className="text-gray-700">
-                  Equip your team with the latest in brain health care techniques and best practices.
+                  Make sure your team is always up to speed on the latest in brain health care techniques and best practices.
                 </p>
               </div>
               <div className="p-6 rounded-lg bg-blue-50">
@@ -82,7 +82,7 @@ export default function CareAgencies() {
                 <Heart className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Performance Analytics</h3>
                 <p className="text-gray-700">
-                  Measure and improve your agency&apos;s impact with detailed insights and reporting.
+                  Understand and improve your agency&apos;s impact with timely and targeted insights and reporting.
                 </p>
               </div>
             </div>
@@ -144,7 +144,7 @@ export default function CareAgencies() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Easy Setup</h3>
                 <p className="text-gray-700">
-                  Get your team onboarded and trained in days, not months.
+                  Get your team onboarded and trained in hours or days, not months.
                 </p>
               </div>
               <div className="text-center">
@@ -156,9 +156,9 @@ export default function CareAgencies() {
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                   <span className="text-2xl font-bold text-blue-600">2</span>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Streamline Care</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">A Happy Workforce & Happy Clients</h3>
                 <p className="text-gray-700">
-                  Manage client care plans and staff assignments in one place.
+                  Give your care workforce access to the timely client insights and up-to-date care guidance they need to simplify their work life and deliver care that creates happy clients.
                 </p>
               </div>
               <div className="text-center">
@@ -172,7 +172,7 @@ export default function CareAgencies() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Grow Your Impact</h3>
                 <p className="text-gray-700">
-                  Use data-driven insights to expand your services and improve outcomes.
+                  Get the data-driven insights you need to optimize and scale your operations and impact.
                 </p>
               </div>
             </div>
