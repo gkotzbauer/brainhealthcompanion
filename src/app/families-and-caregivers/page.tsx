@@ -85,7 +85,7 @@ export default function FamiliesAndCaregivers() {
                 <Heart className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Peace of Mind at Every Step</h3>
                 <p className="text-gray-700">
-                  From care plan guidance for those in your care to stress check-ins for you, you'll always feel supported by your Companion— you don't need to do it all alone.
+                  From care plan guidance for those in your care to stress check-ins for you, you&apos;ll always feel supported by your Companion— you don&apos;t need to do it all alone.
                 </p>
               </div>
             </div>
