@@ -21,7 +21,7 @@ export default function Home() {
                 Compassionate Support for Every Step of the Aging Journey
               </h1>
               <p className="text-2xl text-gray-700 mb-10">
-                Your 24/7 digital partner for simplifying caregiving and enhancing quality of life
+                Your 24/7 digital care partner to simplify care for older adults and enhance quality of life
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <WaitlistForm triggerText="Caregiver" />

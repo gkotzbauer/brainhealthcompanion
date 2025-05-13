@@ -6,8 +6,8 @@ export function HowItWorks() {
   const steps = [
     {
       icon: <HeartHandshake className="w-12 h-12 text-blue-600" />,
-      title: "Reduced Caregiver Burden",
-      desc: "Automate daily care plans, on-demand resources and guidance, get assistance with care coordination"
+      title: "Reduce Caregiver Burden",
+      desc: "Automate daily care plans, on-demand care resources and guidance, assistance with care coordination"
     },
     {
       icon: <Users className="w-12 h-12 text-blue-600" />,
@@ -16,16 +16,16 @@ export function HowItWorks() {
     },
     {
       icon: <LineChart className="w-12 h-12 text-blue-600" />,
-      title: "Optimize Care",
-      desc: "Predictive data can inform more targeted conversations and action plans with medical professionals."
+      title: "Optimize Care for Older Adults",
+      desc: "Personalized guidance to help you provide the best medical care for someone you care for."
     }
   ];
 
   return (
     <section className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
-          Your 24/7 Care Companion - Always Here to Support You
+        <h2 className="text-4xl font-bold text-gray-900 mb-4 text-center">
+          Your 24/7 Digital Care Companion - Always Here to Support You
         </h2>
         <p className="text-xl text-center text-gray-600 mb-12">
           All you have to do is ask
