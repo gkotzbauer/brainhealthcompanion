@@ -17,7 +17,7 @@ export function CommunityHub() {
     {
       icon: <Users className="w-8 h-8 text-blue-600" />,
       title: "Community Forum",
-      desc: "Share experiences and advice with other families on the journey."
+      desc: "Share experiences and advice with other people caring for older adults."
     }
   ];
 

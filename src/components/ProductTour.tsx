@@ -4,7 +4,7 @@ import { Play } from "lucide-react";
 
 export function ProductTour() {
   const features = [
-    "Enhanced Emotional Support via scheduled or real-time personalized quality of life check-ins",
+    "Personalize emotional support via scheduled or real-time quality of life check-ins",
     <span key="evidence">Evidence-Based cognitive health and quality of life monitoring of patients or loved ones with cognitive decline</span>,
     "Support network for check-ins that are needed to alleviate loneliness and reduce anxiety",
     "Automated daily care plans, medication reminders, and educational prompts to help mitigate day-to-day stress or caregiving",
@@ -33,13 +33,13 @@ export function ProductTour() {
     <section className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
-          Meet Your Care Companion
+          Meet Your 24/7 Digital Care Companion
         </h2>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative h-[500px] rounded-lg overflow-hidden shadow-lg">
             <Image
-              src="/care-companion-demo.png"
+              src="/web-demo-2.png"
               alt="Care Companion Demo"
               fill
               className="object-contain bg-white"

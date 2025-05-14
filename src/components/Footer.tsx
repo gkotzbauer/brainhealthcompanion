@@ -10,7 +10,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">About My Brain Health</h3>
             <p className="text-gray-400">
-              Empowering caregivers with personalized support, real-time guidance, and a community of understanding.
+              Empowering caregivers with a 24/7 digital care companion that provides personalized emotional support for their personal needs and evidence-based care guidance for the older adults they care for.
             </p>
           </div>
 

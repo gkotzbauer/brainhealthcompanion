@@ -17,8 +17,8 @@ export function WhoWeHelp() {
     },
     {
       icon: <Heart className="w-8 h-8 text-blue-600" />,
-      title: "24/7 Companion Support",
-      desc: "Emotional support, reminders, and brain health education, always accessible."
+      title: "The Companion You Need, When You Need It",
+      desc: "Get access to 24/7 emotional support, your personalized care journal, and brain health education."
     }
   ];
 
@@ -27,16 +27,16 @@ export function WhoWeHelp() {
     {
       icon: <TrendingUp className="w-8 h-8 text-blue-600" />,
       title: "Enhance Client Outcomes",
-      desc: "Our predictive insights and daily engagement improve patient satisfaction and reduce hospitalizations."
+      desc: "Our personalized care insights optimize workforce care decisions, patient satisfaction, and minimize care costs."
     },
     {
       icon: <Handshake className="w-8 h-8 text-blue-600" />,
       title: "Strengthen Caregiver Support",
-      desc: "Equip your staff and families with real-time guidance and stress reduction tools."
+      desc: "Equip your staff and families with real-time cognitive care guidance that optimizes care and reduces stress."
     },
     {
       icon: <BarChart3 className="w-8 h-8 text-blue-600" />,
-      title: "Scale High-quality Care with Less",
+      title: "Scale High-Quality Care with Less",
       desc: "Our companion will enable each care team member to support more patients at one time with the same or less effort."
     }
   ];
@@ -68,7 +68,7 @@ export function WhoWeHelp() {
               </ul>
             </div>
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white w-full mt-2">
-              Learn How We Help Families
+              Get Started with Your 24/7 Digital Care Companion
             </Button>
           </div>
 
@@ -78,7 +78,7 @@ export function WhoWeHelp() {
               <div className="relative h-72 w-full mb-6 rounded-lg overflow-hidden">
                 <Image src="/agency-care.png" alt="Care agency team" fill className="object-cover" />
               </div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Empower Your Agency with Better Cognitive Care Tools</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Elevate Your Agency Workforce & Operations</h3>
               <ul className="space-y-4 mb-6">
                 {agencyProps.map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3">

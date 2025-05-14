@@ -19,7 +19,6 @@ export function WaitlistForm({ triggerText }: { triggerText: string }) {
   const [isOpen, setIsOpen] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [formData, setFormData] = useState({
-    name: "",
     email: "",
     userType: "caregiver",
   });
@@ -30,7 +29,7 @@ export function WaitlistForm({ triggerText }: { triggerText: string }) {
     console.log("Waitlist submission:", formData);
     setIsSubmitted(true);
     // Reset form
-    setFormData({ name: "", email: "", userType: "caregiver" });
+    setFormData({ email: "", userType: "caregiver" });
   };
 
   const handleOpenChange = (open: boolean) => {
@@ -81,15 +80,6 @@ export function WaitlistForm({ triggerText }: { triggerText: string }) {
         {!isSubmitted && (
           <form onSubmit={handleSubmit} className="grid gap-4 py-4">
             <div className="grid gap-2">
-              <Label htmlFor="name">Name</Label>
-              <Input
-                id="name"
-                value={formData.name}
-                onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFormData({ ...formData, name: e.target.value })}
-                required
-              />
-            </div>
-            <div className="grid gap-2">
               <Label htmlFor="email">Email</Label>
               <Input
                 id="email"
@@ -116,7 +106,7 @@ export function WaitlistForm({ triggerText }: { triggerText: string }) {
                 </div>
               </RadioGroup>
             </div>
-            <Button type="submit" className="mt-4">
+            <Button type="submit" className="mt-4 bg-blue-600 hover:bg-blue-700 text-white">
               Join Waitlist
             </Button>
           </form>
