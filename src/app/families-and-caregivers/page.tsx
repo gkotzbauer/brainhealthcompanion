@@ -223,9 +223,12 @@ export default function FamiliesAndCaregivers() {
                 </div>
               </div>
               <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
-                <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                  <span className="text-gray-400">Image: Caregiver Support Illustration</span>
-                </div>
+                <Image
+                  src="/sarah-mother.png"
+                  alt="Caregiver support illustration showing a mother and daughter"
+                  fill
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>
