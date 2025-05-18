@@ -17,7 +17,7 @@ export default function About() {
               About My Brain Health
             </h1>
             <p className="text-xl text-gray-700 max-w-3xl">
-              The My Brain Health team is on a mission to help the older adult population and their caregivers live their best lives possible. Our dedication to this mission is founded on our personal experience caring for older adults and caregivers and the innovations we've created that has changed how care is delivered.
+              The My Brain Health team is on a mission to help the older adult population and their caregivers live their best lives possible. Our dedication to this mission is founded on our personal experience caring for older adults and caregivers and the innovations we&apos;ve created that has changed how care is delivered.
             </p>
           </div>
         </section>
@@ -37,10 +37,10 @@ export default function About() {
                     Greg has 20+ years of experience as a CEO, Head of Product, health services researcher, a solutions architect for large healthcare analytics projects. Greg has started four healthcare technology companies, worked for the global consulting firm Accenture, the technology services firm Optum (part of United Healthcare), within pharmaceutical distribution and development teams at Cardinal Health, and as the Managing Director of Strategic Technology Initiatives within the Center for Population Health for the globally renowned Dartmouth Research Institute.
                   </p>
                   <p className="mb-4">
-                    Shortly prior to Morph, Greg designed and co-led the transformation of an ambulatory care system into a whole-person care strategy based on the "About Me Care Card" and care model he created. The model resulted in $2M+ in savings for the health system, a 1290% increase in the adoption of the About Me Care Card in the first nine months post-release, and a return-on-investment (ROI) of greater than 200%.
+                    Shortly prior to Morph, Greg designed and co-led the transformation of an ambulatory care system into a whole-person care strategy based on the &quot;About Me Care Card&quot; and care model he created. The model resulted in $2M+ in savings for the health system, a 1290% increase in the adoption of the About Me Care Card in the first nine months post-release, and a return-on-investment (ROI) of greater than 200%.
                   </p>
                   <p>
-                    In his role, Greg created the health system's analytic model that guided continuous improvement for the care teams and evaluated the on-going ROI of the care model. Greg has also led multiple international research initiatives focused on designing and testing novel approaches to integrating the patient voice into the clinical workflow to optimize care quality and patient outcomes.
+                    In his role, Greg created the health system&apos;s analytic model that guided continuous improvement for the care teams and evaluated the on-going ROI of the care model. Greg has also led multiple international research initiatives focused on designing and testing novel approaches to integrating the patient voice into the clinical workflow to optimize care quality and patient outcomes.
                   </p>
                 </div>
               </div>
@@ -67,7 +67,7 @@ export default function About() {
               </h2>
               <div className="prose prose-lg text-gray-700">
                 <p className="mb-6">
-                  My Brain Health's Cognitive Care Companion is based on an 'About Me' care conversation design created by the My Brain Health Founders. The 'About Me' care conversation design is an approach to care conversations that ensures every person receives the personalized care they need, desire, and deserve.
+                  My Brain Health&apos;s Cognitive Care Companion is based on an &apos;About Me&apos; care conversation design created by the My Brain Health Founders. The &apos;About Me&apos; care conversation design is an approach to care conversations that ensures every person receives the personalized care they need, desire, and deserve.
                 </p>
                 <p className="mb-6">
                   This means that our Cognitive Care Companion is designed to first understand your needs, goals, and preferences and then to shape all future conversations using the information you share. This conversation approach supports our mission to help the older adult population and their caregivers live their best lives possible.
@@ -105,7 +105,7 @@ export default function About() {
                   rel="noopener noreferrer"
                   className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors"
                 >
-                  <h3 className="text-lg font-semibold text-blue-900 mb-2">Feasibility and Acceptability of the "About Me" Care Card as a Tool for Engaging Older Adults in Conversations About Cognitive Impairment</h3>
+                  <h3 className="text-lg font-semibold text-blue-900 mb-2">Feasibility and Acceptability of the &quot;About Me&quot; Care Card as a Tool for Engaging Older Adults in Conversations About Cognitive Impairment</h3>
                 </Link>
 
                 <Link 
