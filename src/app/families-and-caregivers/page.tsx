@@ -53,11 +53,6 @@ export default function FamiliesAndCaregivers() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               <div className="p-6 rounded-lg bg-blue-50">
-                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: 24/7 Support Illustration</span>
-                  </div>
-                </div>
                 <Clock className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">24/7 Resource Access</h3>
                 <p className="text-gray-700">
@@ -65,11 +60,6 @@ export default function FamiliesAndCaregivers() {
                 </p>
               </div>
               <div className="p-6 rounded-lg bg-blue-50">
-                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: Health Alerts Dashboard</span>
-                  </div>
-                </div>
                 <AlertCircle className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Proactive Care Guidance</h3>
                 <p className="text-gray-700">
@@ -77,11 +67,6 @@ export default function FamiliesAndCaregivers() {
                 </p>
               </div>
               <div className="p-6 rounded-lg bg-blue-50">
-                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: Peace of Mind Illustration</span>
-                  </div>
-                </div>
                 <Heart className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Peace of Mind at Every Step</h3>
                 <p className="text-gray-700">
@@ -103,9 +88,12 @@ export default function FamiliesAndCaregivers() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div className="p-8 bg-white rounded-lg shadow-sm">
                 <div className="relative h-32 w-32 mx-auto mb-6 rounded-full overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Maria&apos;s Photo</span>
-                  </div>
+                  <Image
+                    src="/maria-testimonial.png"
+                    alt="Maria's Photo"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <p className="text-xl text-gray-700 mb-6">
                   {"Before this, I was overwhelmed every day. Now I get daily support and reminders that actually help."}
@@ -114,9 +102,12 @@ export default function FamiliesAndCaregivers() {
               </div>
               <div className="p-8 bg-white rounded-lg shadow-sm">
                 <div className="relative h-32 w-32 mx-auto mb-6 rounded-full overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">James&apos;s Photo</span>
-                  </div>
+                  <Image
+                    src="/james-testimonial.png"
+                    alt="James's Photo"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <p className="text-xl text-gray-700 mb-6">
                   {"The care companion has helped me and my mom feel connected and supported, even from different cities."}
@@ -153,7 +144,7 @@ export default function FamiliesAndCaregivers() {
               <div className="text-center">
                 <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
                   <Image
-                    src="/care-companion-demo.png"
+                    src="/digital-companion-demo-web.png"
                     alt="Care Companion Interface"
                     fill
                     className="object-cover"
