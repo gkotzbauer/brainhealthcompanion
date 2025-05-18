@@ -46,10 +46,10 @@ export default function About() {
               </div>
               <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
                 <Image
-                  src="/greg-founder.png"
+                  src="/Greg-founder.jpeg"
                   alt="Greg, Founder of My Brain Health"
                   fill
-                  className="object-cover"
+                  className="object-cover object-[center_20%]"
                 />
               </div>
             </div>

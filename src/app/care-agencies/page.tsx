@@ -26,10 +26,13 @@ export default function CareAgencies() {
                 <WaitlistForm triggerText="Schedule a Demo" />
               </div>
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
-                {/* Hero Image Placeholder */}
-                <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                  <span className="text-gray-400">Hero Image: Care team using digital tools in a professional setting</span>
-                </div>
+                <Image
+                  src="/care-agency.jpeg"
+                  alt="Care team using digital tools in a professional setting"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
             </div>
           </div>
@@ -50,11 +53,6 @@ export default function CareAgencies() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               <div className="p-6 rounded-lg bg-blue-50">
-                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: Staff Training Dashboard</span>
-                  </div>
-                </div>
                 <Clock className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Staff Training & Support</h3>
                 <p className="text-gray-700">
@@ -62,11 +60,6 @@ export default function CareAgencies() {
                 </p>
               </div>
               <div className="p-6 rounded-lg bg-blue-50">
-                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: Client Monitoring Interface</span>
-                  </div>
-                </div>
                 <AlertCircle className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Client Monitoring</h3>
                 <p className="text-gray-700">
@@ -74,11 +67,6 @@ export default function CareAgencies() {
                 </p>
               </div>
               <div className="p-6 rounded-lg bg-blue-50">
-                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: Agency Analytics Dashboard</span>
-                  </div>
-                </div>
                 <Heart className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Performance Analytics</h3>
                 <p className="text-gray-700">
@@ -217,16 +205,19 @@ export default function CareAgencies() {
                 </div>
               </div>
               <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
-                <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                  <span className="text-gray-400">Image: Agency Success Metrics</span>
-                </div>
+                <Image
+                  src="/agency-care.png"
+                  alt="Agency Success Metrics"
+                  fill
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>
         </section>
       </FadeInOnScroll>
 
-      {/* Resources Section */}
+      {/* Resources Section - Temporarily Hidden
       <FadeInOnScroll>
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -285,6 +276,7 @@ export default function CareAgencies() {
           </div>
         </section>
       </FadeInOnScroll>
+      */}
 
       {/* Final CTA Section */}
       <FadeInOnScroll>
