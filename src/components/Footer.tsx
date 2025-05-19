@@ -23,21 +23,6 @@ export function Footer() {
                   About Us
                 </Link>
               </li>
-              <li>
-                <Link href="/resources" className="text-gray-400 hover:text-white transition-colors">
-                  Resources
-                </Link>
-              </li>
-              <li>
-                <Link href="/community" className="text-gray-400 hover:text-white transition-colors">
-                  Community
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-gray-400 hover:text-white transition-colors">
-                  Contact
-                </Link>
-              </li>
             </ul>
           </div>
 
