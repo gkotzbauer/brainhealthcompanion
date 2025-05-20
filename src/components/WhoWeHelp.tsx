@@ -1,4 +1,7 @@
-import { Button } from "@/components/ui/button";
+import { FadeInOnScroll } from "./FadeInOnScroll";
+import { Button } from "./ui/button";
+import { ArrowRight } from "lucide-react";
+import { WaitlistForm } from "./WaitlistForm";
 import Image from "next/image";
 import { Heart, Brain, Clock, AlertCircle, Users, TrendingUp, Handshake, BarChart3 } from "lucide-react";
 
@@ -67,9 +70,7 @@ export function WhoWeHelp() {
                 ))}
               </ul>
             </div>
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white w-full mt-2">
-              Get Started with Your 24/7 Digital Care Companion
-            </Button>
+            <WaitlistForm triggerText="Meet Your Care Companion" />
           </div>
 
           {/* Agencies Column */}
@@ -91,9 +92,7 @@ export function WhoWeHelp() {
                 ))}
               </ul>
             </div>
-            <Button size="lg" variant="outline" className="border-blue-600 text-blue-600 w-full mt-2 hover:bg-blue-50">
-              Partner With Us
-            </Button>
+            <WaitlistForm triggerText="Schedule a Demo" />
           </div>
         </div>
       </div>
