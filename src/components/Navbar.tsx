@@ -34,8 +34,7 @@ export function Navbar() {
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-          <Link href="#resources" className="hover:text-blue-600 transition-colors">Resources</Link>
-          <Link href="#community" className="hover:text-blue-600 transition-colors">Community</Link>
+          <Link href="/about" className="hover:text-blue-600 transition-colors">About Us</Link>
         </div>
         {/* Get Started Button */}
         <WaitlistForm triggerText="Get Started" />

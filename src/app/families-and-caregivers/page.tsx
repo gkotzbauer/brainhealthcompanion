@@ -127,13 +127,16 @@ export default function FamiliesAndCaregivers() {
               Simple, Supportive, and Always There for You
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-              <div className="text-center">
-                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: Quick Setup Process</span>
-                  </div>
+              <div className="text-center flex flex-col items-center">
+                <div className="relative h-64 mb-6 rounded-lg overflow-hidden bg-white w-full">
+                  <Image
+                    src="/easy-setup.png"
+                    alt="Quick Setup Process"
+                    fill
+                    className="object-contain p-4"
+                  />
                 </div>
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                   <span className="text-2xl font-bold text-blue-600">1</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Get Started in Minutes</h3>
@@ -141,8 +144,8 @@ export default function FamiliesAndCaregivers() {
                   Talk to your Companion about your needs or caregiving questions.
                 </p>
               </div>
-              <div className="text-center">
-                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
+              <div className="text-center flex flex-col items-center">
+                <div className="relative h-64 mb-6 rounded-lg overflow-hidden w-full">
                   <Image
                     src="/digital-companion-demo-web.png"
                     alt="Care Companion Interface"
@@ -150,7 +153,7 @@ export default function FamiliesAndCaregivers() {
                     className="object-cover"
                   />
                 </div>
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                   <span className="text-2xl font-bold text-blue-600">2</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Partner with Your Companion</h3>
@@ -158,13 +161,16 @@ export default function FamiliesAndCaregivers() {
                   Your Companion will get to know you and be there for you when you need it - get any daily coaching you need, brain health tips, emotional check-ins, or any other support you need.
                 </p>
               </div>
-              <div className="text-center">
-                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: Connected Care Experience</span>
-                  </div>
+              <div className="text-center flex flex-col items-center">
+                <div className="relative h-64 mb-6 rounded-lg overflow-hidden bg-white w-full">
+                  <Image
+                    src="/happy-teams.png"
+                    alt="Connected Care Experience"
+                    fill
+                    className="object-contain p-4"
+                  />
                 </div>
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                   <span className="text-2xl font-bold text-blue-600">3</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Stay Connected, Feel Confident</h3>

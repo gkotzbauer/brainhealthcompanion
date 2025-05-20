@@ -78,41 +78,6 @@ export default function CareAgencies() {
         </section>
       </FadeInOnScroll>
 
-      {/* Testimonials Section */}
-      <FadeInOnScroll>
-        <section className="py-20 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-4xl font-bold text-gray-900 mb-16 text-center">
-              &quot;This platform has transformed how we deliver care.&quot;
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-              <div className="p-8 bg-white rounded-lg shadow-sm">
-                <div className="relative h-32 w-32 mx-auto mb-6 rounded-full overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Sarah&apos;s Photo</span>
-                  </div>
-                </div>
-                <p className="text-xl text-gray-700 mb-6">
-                  &quot;Our staff retention has improved significantly since implementing these tools. The training resources are invaluable.&quot;
-                </p>
-                <p className="font-semibold text-gray-900">— Sarah M., Care Agency Director</p>
-              </div>
-              <div className="p-8 bg-white rounded-lg shadow-sm">
-                <div className="relative h-32 w-32 mx-auto mb-6 rounded-full overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">David&apos;s Photo</span>
-                  </div>
-                </div>
-                <p className="text-xl text-gray-700 mb-6">
-                  &quot;The analytics have helped us demonstrate our value to families and improve our care delivery.&quot;
-                </p>
-                <p className="font-semibold text-gray-900">— David R., Agency Owner</p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeInOnScroll>
-
       {/* How It Works Section */}
       <FadeInOnScroll>
         <section className="py-20 bg-white">
@@ -122,10 +87,13 @@ export default function CareAgencies() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               <div className="text-center">
-                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: Quick Setup Process</span>
-                  </div>
+                <div className="relative h-64 mb-6 rounded-lg overflow-hidden bg-white">
+                  <Image
+                    src="/easy-setup.png"
+                    alt="Quick Setup Process"
+                    fill
+                    className="object-contain p-4"
+                  />
                 </div>
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                   <span className="text-2xl font-bold text-blue-600">1</span>
@@ -136,10 +104,13 @@ export default function CareAgencies() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: Care Management Interface</span>
-                  </div>
+                <div className="relative h-64 mb-6 rounded-lg overflow-hidden bg-white">
+                  <Image
+                    src="/happy-teams.png"
+                    alt="Care Management Interface"
+                    fill
+                    className="object-contain p-4"
+                  />
                 </div>
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                   <span className="text-2xl font-bold text-blue-600">2</span>
@@ -150,10 +121,13 @@ export default function CareAgencies() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: Growth Metrics Dashboard</span>
-                  </div>
+                <div className="relative h-64 mb-6 rounded-lg overflow-hidden bg-white">
+                  <Image
+                    src="/efficient-scale.png"
+                    alt="Growth Metrics Dashboard"
+                    fill
+                    className="object-contain p-4"
+                  />
                 </div>
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                   <span className="text-2xl font-bold text-blue-600">3</span>
@@ -216,67 +190,6 @@ export default function CareAgencies() {
           </div>
         </section>
       </FadeInOnScroll>
-
-      {/* Resources Section - Temporarily Hidden
-      <FadeInOnScroll>
-        <section className="py-20 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-4xl font-bold text-gray-900 mb-16 text-center">
-              Resources for Care Agencies
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="p-6 bg-blue-50 rounded-lg">
-                <div className="relative h-32 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: Case Study Cover</span>
-                  </div>
-                </div>
-                <Download className="w-8 h-8 text-blue-600 mb-4" />
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Success Stories</h3>
-                <p className="text-gray-700 mb-4">Real agencies, real results</p>
-                <Button variant="outline" className="w-full">Download PDF</Button>
-              </div>
-              <div className="p-6 bg-blue-50 rounded-lg">
-                <div className="relative h-32 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: Webinar Preview</span>
-                  </div>
-                </div>
-                <Calendar className="w-8 h-8 text-blue-600 mb-4" />
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Live Demo</h3>
-                <p className="text-gray-700 mb-4">See the platform in action</p>
-                <Button variant="outline" className="w-full">Register Now</Button>
-              </div>
-              <div className="p-6 bg-blue-50 rounded-lg">
-                <div className="relative h-32 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: Implementation Guide</span>
-                  </div>
-                </div>
-                <BookOpen className="w-8 h-8 text-blue-600 mb-4" />
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Implementation Guide</h3>
-                <p className="text-gray-700 mb-4">Step-by-step setup process</p>
-                <Button variant="outline" className="w-full">View Guide</Button>
-              </div>
-              <div className="p-6 bg-blue-50 rounded-lg">
-                <div className="relative h-32 mb-6 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400">Image: ROI Calculator</span>
-                  </div>
-                </div>
-                <CheckCircle className="w-8 h-8 text-blue-600 mb-4" />
-                <h3 className="text-xl font-bold text-gray-900 mb-2">ROI Calculator</h3>
-                <p className="text-gray-700 mb-4">Calculate your potential savings</p>
-                <Button variant="outline" className="w-full">Try Calculator</Button>
-              </div>
-            </div>
-            <div className="text-center mt-12">
-              <WaitlistForm triggerText="Explore All Resources" />
-            </div>
-          </div>
-        </section>
-      </FadeInOnScroll>
-      */}
 
       {/* Final CTA Section */}
       <FadeInOnScroll>

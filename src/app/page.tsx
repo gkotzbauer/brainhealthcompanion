@@ -3,7 +3,6 @@ import { Navbar } from "@/components/Navbar";
 import { HowItWorks } from "@/components/HowItWorks";
 import { WhoWeHelp } from "@/components/WhoWeHelp";
 import { ProductTour } from "@/components/ProductTour";
-import { CommunityHub } from "@/components/CommunityHub";
 import { Footer } from "@/components/Footer";
 import { FadeInOnScroll } from "@/components/FadeInOnScroll";
 import { WaitlistForm } from "@/components/WaitlistForm";
@@ -45,11 +44,6 @@ export default function Home() {
       {/* Product Tour Section */}
       <FadeInOnScroll>
         <ProductTour />
-      </FadeInOnScroll>
-
-      {/* Community Hub Section */}
-      <FadeInOnScroll>
-        <CommunityHub />
       </FadeInOnScroll>
 
       {/* Footer */}
