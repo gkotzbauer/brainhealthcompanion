@@ -45,10 +45,10 @@ export default function CareAgencies() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                A Comprehensive Platform for Modern Care Agencies
+                The Solution Modern Care Agencies Need to Optimize Care and Profit Margin
               </h2>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                From staff training to scaling your customer touchpoints, we help you deliver exceptional care and optimize your operations.
+                From minimizing staff stress to scaling your personalized customer touchpoints, we help you deliver exceptional care and optimize your operations.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -61,9 +61,9 @@ export default function CareAgencies() {
               </div>
               <div className="p-6 rounded-lg bg-blue-50">
                 <AlertCircle className="w-12 h-12 text-blue-600 mb-4" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Client Monitoring</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Personalize Care at Scale</h3>
                 <p className="text-gray-700">
-                  Track client progress and receive early alerts about potential health changes.
+                  Give your patients the 24/7 Companion they need to understand and follow care plans and get immediate care guidance.
                 </p>
               </div>
               <div className="p-6 rounded-lg bg-blue-50">
@@ -152,7 +152,7 @@ export default function CareAgencies() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                  Because Quality Care Requires the Right Tools
+                  Because High Quality Care Requires the Right Tools & Timely Insights
                 </h2>
                 <p className="text-xl text-gray-700 mb-8">
                   In today&apos;s care landscape, agencies need more than just good intentions. They need technology that empowers their team and improves client outcomes.
@@ -168,7 +168,7 @@ export default function CareAgencies() {
                     <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                       <span className="text-2xl font-bold text-blue-600">85%</span>
                     </div>
-                    <p className="text-gray-700">improvement in care documentation</p>
+                    <p className="text-gray-700">Improve the Ratio of Patients to Care Staff</p>
                   </div>
                   <div className="text-center">
                     <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -202,7 +202,7 @@ export default function CareAgencies() {
               Join the growing number of agencies using our platform to deliver exceptional care and grow their business.
             </p>
             <div className="text-center">
-              <WaitlistForm triggerText="Schedule a Demo" />
+              <WaitlistForm triggerText="Schedule a Brief Demo" className="border-2 border-white" />
             </div>
           </div>
         </section>

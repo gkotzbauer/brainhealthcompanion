@@ -207,9 +207,9 @@ export default function FamiliesAndCaregivers() {
                   </div>
                   <div className="text-center">
                     <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                      <span className="text-2xl font-bold text-blue-600">-$</span>
+                      <span className="text-2xl font-bold text-blue-600">18B</span>
                     </div>
-                    <p className="text-gray-700">Most caregiving is unpaid and unsupported</p>
+                    <p className="text-gray-700">18 billion hours of unpaid care</p>
                   </div>
                   <div className="text-center">
                     <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
