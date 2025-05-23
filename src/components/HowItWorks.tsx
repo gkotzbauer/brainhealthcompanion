@@ -7,7 +7,7 @@ export function HowItWorks() {
     {
       icon: <HeartHandshake className="w-12 h-12 text-blue-600" />,
       title: "Reduce Caregiver Burden",
-      desc: "Automate daily care plans, on-demand care resources and guidance, assistance with care coordination"
+      desc: "A companion in your pocket to automate daily care plans, get assistance with care coordination, or find answers to care needs and concerns"
     },
     {
       icon: <Users className="w-12 h-12 text-blue-600" />,
@@ -17,7 +17,7 @@ export function HowItWorks() {
     {
       icon: <LineChart className="w-12 h-12 text-blue-600" />,
       title: "Optimize Care for Older Adults",
-      desc: "Personalized guidance to help you provide the best medical care for someone you care for."
+      desc: "Personalized guidance to help you provide the best possible care for someone you care for"
     }
   ];
 

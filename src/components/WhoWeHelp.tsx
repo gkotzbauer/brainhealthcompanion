@@ -52,7 +52,7 @@ export function WhoWeHelp() {
         </h2>
         <div className="grid md:grid-cols-2 gap-12 items-stretch">
           {/* Families Column */}
-          <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col justify-between">
+          <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col justify-start">
             <div>
               <div className="relative h-72 w-full mb-6 rounded-lg overflow-hidden">
                 <Image src="/sarah-mother.png" alt="Companion app with family" fill className="object-cover" />
@@ -65,6 +65,7 @@ export function WhoWeHelp() {
                     <div>
                       <div className="font-semibold text-gray-800">{item.title}</div>
                       <div className="text-gray-600 text-sm">{item.desc}</div>
+                      {idx === 0 && <div className="h-6"></div>}
                     </div>
                   </li>
                 ))}
@@ -74,7 +75,7 @@ export function WhoWeHelp() {
           </div>
 
           {/* Agencies Column */}
-          <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col justify-between">
+          <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col justify-start">
             <div>
               <div className="relative h-72 w-full mb-6 rounded-lg overflow-hidden">
                 <Image src="/agency-care.png" alt="Care agency team" fill className="object-cover" />
