@@ -201,8 +201,8 @@ export default function CareAgencies() {
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
               Join the growing number of agencies using our platform to deliver exceptional care and grow their business.
             </p>
-            <div className="text-center">
-              <WaitlistForm triggerText="Schedule a Brief Demo" className="border-2 border-white" />
+            <div className="text-center border-2 border-white inline-block">
+              <WaitlistForm triggerText="Schedule a Brief Demo" />
             </div>
           </div>
         </section>
