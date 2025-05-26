@@ -24,6 +24,7 @@ export default function ChatPage() {
               <span className="text-blue-600 font-semibold">AI</span>
             </div>
             <div className="flex-1 bg-gray-50 rounded-lg p-4">
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
               <p className="text-gray-800">Hello! I'm your Brain Health Companion. How can I help you today?</p>
             </div>
           </div>
