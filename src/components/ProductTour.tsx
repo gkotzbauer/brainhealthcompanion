@@ -79,11 +79,12 @@ export function ProductTour() {
             </div>
           ))}
         </div>
-
-        <div className="text-center">
-          <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
-            Explore the Companion
-          </Button>
+        <div className="text-center mb-4">
+          <a href="/chat">
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-6">
+              Explore the Companion
+            </Button>
+          </a>
         </div>
       </div>
     </section>

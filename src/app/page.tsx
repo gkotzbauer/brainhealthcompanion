@@ -6,6 +6,7 @@ import { ProductTour } from "@/components/ProductTour";
 import { Footer } from "@/components/Footer";
 import { FadeInOnScroll } from "@/components/FadeInOnScroll";
 import { WaitlistForm } from "@/components/WaitlistForm";
+import Link from "next/link";
 
 export default function Home() {
   return (
