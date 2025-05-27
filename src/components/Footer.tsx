@@ -1,7 +1,13 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { useState } from "react";
+import { HelpForm } from "./HelpForm";
 
 export function Footer() {
+  const [isHelpFormOpen, setIsHelpFormOpen] = useState(false);
+
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-12">
@@ -28,16 +34,16 @@ export function Footer() {
                   Families and Caregivers
                 </Link>
               </li>
-              <li className="text-gray-400 cursor-not-allowed">
-                Care Agencies
-              </li>
             </ul>
           </div>
 
           {/* Get Help */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Get Help</h3>
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white mb-4">
+            <Button 
+              className="bg-blue-600 hover:bg-blue-700 text-white mb-4"
+              onClick={() => setIsHelpFormOpen(true)}
+            >
               Get Help Now
             </Button>
             <p className="text-gray-400 text-sm">
@@ -72,6 +78,11 @@ export function Footer() {
           <p>&copy; {new Date().getFullYear()} My Brain Health. All rights reserved.</p>
         </div>
       </div>
+
+      <HelpForm 
+        isOpen={isHelpFormOpen} 
+        onClose={() => setIsHelpFormOpen(false)} 
+      />
     </footer>
   );
 } 
