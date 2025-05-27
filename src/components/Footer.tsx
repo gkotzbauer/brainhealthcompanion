@@ -28,10 +28,8 @@ export function Footer() {
                   Families and Caregivers
                 </Link>
               </li>
-              <li>
-                <Link href="/care-agencies" className="text-gray-400 hover:text-white transition-colors">
-                  Care Agencies
-                </Link>
+              <li className="text-gray-400 cursor-not-allowed">
+                Care Agencies
               </li>
             </ul>
           </div>

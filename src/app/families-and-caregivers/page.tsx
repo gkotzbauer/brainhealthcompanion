@@ -180,7 +180,7 @@ export default function FamiliesAndCaregivers() {
               </div>
             </div>
             <div className="text-center mt-12">
-              <WaitlistForm triggerText="Try It Today – Risk-Free" />
+              <WaitlistForm triggerText="Meet Your Care Companion" />
             </div>
           </div>
         </section>
@@ -190,11 +190,31 @@ export default function FamiliesAndCaregivers() {
       <FadeInOnScroll>
         <section className="py-20 bg-gray-50">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-4">Because Caregiving Is Hard — And You Deserve Support, Too</h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Caregiving is one of the most challenging roles anyone can take on. It's time we recognize that and provide the support you need.
+              </p>
+            </div>
+
+            {/* Statistics Section */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                <div className="text-4xl font-bold text-blue-600 mb-2">53M</div>
+                <p className="text-gray-600">Americans providing unpaid care to family members</p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                <div className="text-4xl font-bold text-blue-600 mb-2">$600B</div>
+                <p className="text-gray-600">Annual value of unpaid family caregiving</p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                <div className="text-4xl font-bold text-blue-600 mb-2">23%</div>
+                <p className="text-gray-600">Caregivers report their health has gotten worse</p>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
-                <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                  Because Caregiving Is Hard — And You Deserve Support, Too
-                </h2>
                 <p className="text-xl text-gray-700 mb-8">
                   Caregivers face burnout, stress, and financial strain. My Brain Health is built to lighten your load — emotionally, logistically, and mentally.
                 </p>
@@ -305,7 +325,7 @@ export default function FamiliesAndCaregivers() {
             </p>
             <div className="text-center">
               <div className="inline-block border-2 border-white rounded-lg">
-                <WaitlistForm triggerText="Get Started for Free" />
+                <WaitlistForm triggerText="Meet Your Care Companion" />
               </div>
             </div>
           </div>

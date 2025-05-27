@@ -1,12 +1,5 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { WaitlistForm } from "@/components/WaitlistForm";
 
 export function Navbar() {
   return (
@@ -18,26 +11,8 @@ export function Navbar() {
         </Link>
         {/* Nav Links */}
         <div className="hidden md:flex gap-8 text-base font-medium text-gray-800">
-          <DropdownMenu>
-            <DropdownMenuTrigger className="hover:text-blue-600 transition-colors">
-              Who We Help
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <DropdownMenuItem>
-                <Link href="/families-and-caregivers">Families & Caregivers</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href="/care-agencies">Care Agencies</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem className="text-gray-400 cursor-not-allowed">
-                Clinicians (Coming Soon)
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-          <Link href="/about" className="hover:text-blue-600 transition-colors">About Us</Link>
+          <Link href="/about" className="hover:text-blue-600 transition-colors ml-auto">About Us</Link>
         </div>
-        {/* Get Started Button */}
-        <WaitlistForm triggerText="Get Started" />
       </div>
     </nav>
   );
