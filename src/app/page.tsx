@@ -90,7 +90,7 @@ export default function Home() {
                 <div className="relative h-32 w-32 mx-auto mb-6 rounded-full overflow-hidden">
                   <Image
                     src="/maria-testimonial.png"
-                    alt="Maria's Photo"
+                    alt="Maria&apos;s Photo"
                     fill
                     className="object-cover"
                   />
@@ -104,7 +104,7 @@ export default function Home() {
                 <div className="relative h-32 w-32 mx-auto mb-6 rounded-full overflow-hidden">
                   <Image
                     src="/james-testimonial.png"
-                    alt="James's Photo"
+                    alt="James&apos;s Photo"
                     fill
                     className="object-cover"
                   />
@@ -193,7 +193,7 @@ export default function Home() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Because Caregiving Is Hard — And You Deserve Support, Too</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Caregiving is one of the most challenging roles anyone can take on. It's time we recognize that and provide the support you need.
+                Caregiving is one of the most challenging roles anyone can take on. It&apos;s time we recognize that and provide the support you need.
               </p>
             </div>
 

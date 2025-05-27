@@ -193,7 +193,7 @@ export default function FamiliesAndCaregivers() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Because Caregiving Is Hard — And You Deserve Support, Too</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Caregiving is one of the most challenging roles anyone can take on. It's time we recognize that and provide the support you need.
+                Caregiving is one of the most challenging roles anyone can take on. It&apos;s time we recognize that and provide the support you need.
               </p>
             </div>
 
