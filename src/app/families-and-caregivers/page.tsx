@@ -90,7 +90,7 @@ export default function FamiliesAndCaregivers() {
                 <div className="relative h-32 w-32 mx-auto mb-6 rounded-full overflow-hidden">
                   <Image
                     src="/maria-testimonial.png"
-                    alt="Maria's Photo"
+                    alt="Maria&apos;s Photo"
                     fill
                     className="object-cover"
                   />
@@ -104,7 +104,7 @@ export default function FamiliesAndCaregivers() {
                 <div className="relative h-32 w-32 mx-auto mb-6 rounded-full overflow-hidden">
                   <Image
                     src="/james-testimonial.png"
-                    alt="James's Photo"
+                    alt="James&apos;s Photo"
                     fill
                     className="object-cover"
                   />
